@@ -1,0 +1,33 @@
+{
+    "namespace": "solothistime",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+ {
+          "name": "Sitecore.SXA.mitya.Content.Tenant",
+          "path": "/sitecore/content/mitya",
+          "database": "master"
+        },
+ {
+          "name": "Sitecore.SXA.mitya.media.Tenant",
+          "path": "/sitecore/media library/Project/mitya",
+          "database": "master"
+        },
+ {
+          "name": "Sitecore.SXA.mitya.templates.Tenant",
+          "path": "/sitecore/templates/Project/mitya",
+          "database": "master"
+        },
+ {
+          "name": "Sitecore.SXA.mitya.placeholders.Tenant",
+          "path": "/sitecore/layout/Placeholder Settings/Project/mitya",
+          "database": "master"
+        }
+, {
+          "name": "Sitecore.SXA.mitya.renderings.Tenant",
+          "path": "/sitecore/layout/Renderings/Project/mitya",
+          "database": "master"
+        }
+        ]
+    }
+}
